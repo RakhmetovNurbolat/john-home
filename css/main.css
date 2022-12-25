@@ -381,3 +381,52 @@ a.posts__card {
     margin-top: 16px;
 }
 /* End blogs */
+/*works*/
+.works{
+    margin-top: 80px;
+    margin-bottom: 28px;
+}
+.works .wrapper{
+    width: 680px;
+}
+.title-1{
+    font-size: 34px;
+    font-weight: 700;
+}
+.works__info{
+    margin-top: 32px;
+}
+.works__info-year,
+.works__info-text{
+    float: left;
+}
+.works__info-year{
+    background-color: #FF7C7C;
+    border-radius: 16px;
+    color: #fff;
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.works__info-text{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.works__text{
+    margin-top: 24px;
+    color: #000;
+}
+.photo{
+    margin-top: 48px;
+}
+.title-2{
+    margin-top: 52px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.title-3{
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 500;
+}
+/*End works*/
