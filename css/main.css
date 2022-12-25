@@ -336,3 +336,48 @@ a.posts__card {
 .footer__icon img {
     max-width: 37px;
 }
+
+/* blogs */
+.blogs{
+    margin-top: 108px;
+    margin-bottom: 54px;
+}
+.blogs__title{
+    font-size: 44px;
+    color: #21243D;
+    font-weight: 700;
+}
+.blogs__posts{
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+.blogs__blog{
+    margin-bottom: 31px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 31px;
+}
+.blogs__blog-title{
+    font-size: 30px;
+    font-weight: 500;
+}
+.blogs__blog-info{
+    margin-top: 16px;
+}
+.blogs__blog-info-data,
+.blogs__blog-info-tags{
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+.blogs__blog-info-data{
+    border-right: 1px solid #000;
+    padding-right: 24px;
+}
+.blogs__blog-info-tags{
+    color: #8695A4;
+    margin-left: 24px;
+}
+.blogs__blog-text{
+    margin-top: 16px;
+}
+/* End blogs */
