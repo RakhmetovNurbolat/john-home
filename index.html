@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Homepage</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/adaptive.css"> 
 </head>
 <body>
     <!-- Шапка -->
     <div class="header">
-        <ul>
+        <ul class="header__menu">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="works.html">Works</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="contacts.html">Contact</a></li>
         </ul>
+        <button class="header__burger">
+            <img src="/img/burger.svg" alt="">
+        </button>
     </div> 
     <!-- End Шапка -->
     <!-- Первый экран -->
     <div class="author">
         <div class="wrapper">
+            <div class="author__avatar">
+                <img src="img/avatar.png" alt="photo author avatar">
+            </div>
             <div class="author__info">
                 <div class="author__title">
                     Hi, I am John, Creative&nbsp;Technologist
@@ -30,14 +37,12 @@
                 </div>
                 <div class="button">Download Resume</div>
             </div>
-            <div class="author__avatar">
-                <img src="img/avatar.png" alt="photo author avatar">
-            </div>
+            
         </div>
     </div>
     <!-- End Первый экран-->
     <!-- Посты -->
-    <div class="posts">
+    <!-- <div class="posts">
         <div class="wrapper">
             <div class="posts__header">
                 <div class="posts__title">Recent posts</div>
@@ -72,10 +77,10 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Посты -->
     <!-- Избранные работы -->
-    <div class="featured">
+    <!-- <div class="featured">
         <div class="wrapper">
             <div class="featured__title">Featured works</div>
             <div class="featured__cards">
@@ -147,7 +152,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End Избранные работы -->
     <!-- Подвал -->
     <div class="footer">

@@ -1,0 +1,76 @@
+@media (max-width: 576px){
+    .wrapper{
+        width: calc(100% - 30px);
+    }
+}
+/*SHAPKA*/
+.header__burger{
+    display: none;
+    border: none;
+    float: right;
+    margin: 20px 20px 20px 0;
+    background-color: transparent; /*удаление фон прозрачстост*/
+}
+
+@media(max-width: 576px){
+    .header__burger{
+        display: block;
+    }
+    .header__menu{
+        display: none;
+    }
+}
+/*end SHAPKA*/
+/*PODVAL*/
+@media(max-width: 576px){
+    .footer__copyright{
+        max-width: 290px;
+    }
+}
+/*end PODVAL*/
+/*ONE*/
+
+@media(max-width: 886px){
+    .author__info{
+        padding-right: 40px;
+    }
+    .author__title{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .author__text{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 768px){
+    .author{
+        margin-top: 64px;
+    }
+    .author__avatar{
+        float: none;
+        margin: 0 auto 24px;
+    }
+    .author__info{
+        float: none;
+        width: 100%;
+        padding-right: 0;
+    }
+}
+@media(max-width: 576px){
+    .author{
+        margin-top: 24px;
+    }
+    .author__avatar{
+        width: 180px;
+    }
+    .author__info{
+        text-align: center;
+    }
+    .author__title{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .author__text{
+        margin-bottom: 20px;
+    }
+}

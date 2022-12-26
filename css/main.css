@@ -17,7 +17,8 @@ body {
 */
 .wrapper {
     margin: 0 auto;
-    width: 856px;
+    width: calc(100% - 60px);
+    max-width: 856px;
 }
 
 /*
@@ -329,7 +330,7 @@ a.posts__card {
     transform: scale(1.2);
 }
 
-.footer__icon:last-child {
+.footer__icon:last-of-type {
     margin-right: 0;
 }
 
